@@ -1,0 +1,25 @@
+# AI Research Tool Dependencies
+# Install with: pip install -r requirements_ai_research.txt
+
+# Web scraping and HTTP requests
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# HTML parsing (faster parser for BeautifulSoup)
+html5lib>=1.1
+
+# Date and time handling (built-in, but listed for reference)
+# python-dateutil>=2.8.0
+
+# Optional: For advanced scraping
+# selenium>=4.15.0  # For JavaScript-heavy sites
+# scrapy>=2.11.0    # For larger scraping projects
+
+# Optional: For natural language processing
+# nltk>=3.8.1       # Text processing
+# textblob>=0.17.1  # Sentiment analysis
+
+# Optional: For API integration
+# feedparser>=6.0.10  # RSS feeds
+# newspaper3k>=0.2.8  # Article extraction
