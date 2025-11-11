@@ -1,0 +1,17 @@
+# Optimistic Future Research Tool - Requirements
+# Install with: pip install -r requirements_optimistic_research.txt
+
+# Core dependencies
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# Optional: For scheduling automated research
+schedule>=1.1.0
+
+# Note: The following are built-in Python modules (no installation needed):
+# - json
+# - datetime
+# - time
+# - urllib
+# - os
+# - typing
